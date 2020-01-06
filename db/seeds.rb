@@ -1,0 +1,2 @@
+london = City.create(name: 'London')
+Wall.create(name: "Stronghold", area: "Tottenham Hale", city: london, description: 'Wall in Tottenham. Bouldering only', weekday_opening: '12:00', weekday_closing: '22:00', weekend_opening: '9:00', weekend_closing: '19:00', website_url: 'https://www.thestrongholduk.com/', image_url: 'https://www.thestrongholduk.com/wp-content/uploads/2019/11/1DX_3105-400x600.jpg', bouldering_only: true, address_line_1: '18 Ashley Road', address_line_2: 'Tottenham Hale', postcode: 'N17 9LJ')
