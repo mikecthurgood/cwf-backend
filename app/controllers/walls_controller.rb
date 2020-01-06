@@ -6,7 +6,8 @@ class WallsController < ApplicationController
   end
 
   def show
-
+    wall = Wall.find(params[:id])
+      render json: wall.to_json()
   end
   
   def create
