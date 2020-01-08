@@ -5,6 +5,17 @@ City.all.map(&:destroy)
 
 
 london = City.create(name: 'London')
+kent = City.create(name: 'Kent')
+surrey = City.create(name: 'Surrey')
+sussex = City.create(name: 'Sussex')
+berkshire = City.create(name: 'Berkshire' )
+buckinghamshire = City.create(name: 'Buckinghamshire')
+essex = City.create(name: 'Essex')
+hertfordshire = City.create(name: 'Hertfordshire')
+bedfordshire = City.create(name: 'Bedfordshire')
+cambridgeshire  = City.create(name: 'Cambridgeshire')
+hampshire = City.create(name: 'Hampshire')
+oxfordshire = City.create(name: 'Oxfordshire')
 
 mike = User.create(username: 'MikeTest', email: 'm@m.m', password: 'm', password_confirmation: 'm', city: london, bio: 'test user testing the shit out of this website')
 
