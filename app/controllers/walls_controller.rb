@@ -2,7 +2,7 @@ class WallsController < ApplicationController
   def index
     walls = Wall.all
 
-    render json: walls.to_json()
+    render json: walls.to_json(:include => {:reviews => {:except => [:id, :user_id, :wall_id], :include => {:user => {only: [:username]}} }})
   end
 
   def show
